@@ -6,14 +6,18 @@
 # 모델 속성 표
 
 ### User 속성 표
+### User 속성 표
 | Id     | Name   | Phone  | Age    | Created at| Updated at|
 |--------|--------|--------|--------|-----------|-----------|
+|String  | String | String | integer|String     | String    |
 ### Post 속성 표
 | Id     | Title  | Content| User_id| Created at| Updated at|
 |--------|--------|--------|--------|-----------|-----------|
+|String  | Text   | Text   | integer| String    | String    |
 ### Comment 속성 표
 | Id     | content| Post_id| User_id| Created at| Updated at|
 |--------|--------|--------|--------|-----------|-----------|
+|String  |text    | String | String | String    | String    |
 
 # 각각 모델 코드(User.rb..)
 

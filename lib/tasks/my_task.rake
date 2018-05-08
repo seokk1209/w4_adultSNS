@@ -35,5 +35,4 @@ namespace :my_task do
       end
     end
   end
-  
 end
